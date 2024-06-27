@@ -10,15 +10,16 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    margin: 0 auto;
 }
 
-main h1 {
-    height: 50px;
-    color: white;
-}
 
-video {
-    max-height: 100%;
+img{
+    max-width: 100%;
     min-width: 500px;
-    margin: 0;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
